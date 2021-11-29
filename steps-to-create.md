@@ -4,7 +4,7 @@ oc create -f https://raw.githubusercontent.com/bbalakriz/nexus/master/nexus3-per
 
 oc create secret docker-registry \
    --docker-server=docker.io \
-   --docker-username=bbalasub \
+   --docker-username=******** \
    --docker-password=******** \
    dockerhub
    
